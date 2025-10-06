@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab4_LisinStanislav_4194</string>
+    <string name="TextName">Калькулятор Ли Сина</string>
+    <string name="Text1">Введите первое значение</string>
+    <string name="Text2">Введите второе значение</string>
+    <string name="b_Add">+</string>
+    <string name="b_Mult">*</string>
+    <string name="b_del">/</string>
+    <string name="b_razn">-</string>
+</resources>

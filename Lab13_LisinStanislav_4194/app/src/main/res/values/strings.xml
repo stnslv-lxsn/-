@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab13_LisinStanislav_4194</string>
+    <string name="edit">Введите текст</string>
+    <string name="text">Выводимый текст</string>
+    <string name="b_On">Нажать на кнопку</string>
+    <string name="b_Off">Нельзя нажать</string>
+</resources>

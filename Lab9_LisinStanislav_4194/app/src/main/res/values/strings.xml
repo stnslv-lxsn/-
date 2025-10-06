@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab9_LisinStanislav_4194</string>
+    <string name="settings_name">app_settings</string>
+    <string name="string_setting_1">Строка 1</string>
+    <string name="string_setting_2">Строка 2</string>
+    <string name="integer_setting">Ввод целочисленного значения</string>
+</resources>

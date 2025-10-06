@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="150dp"
+            android:layout_height="350dp"
+            android:layout_margin="5dp"
+            android:background="#ffcc"/>
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#ffcc"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ediText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#fccf"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:onClick="onAdd1"
+            android:text="@string/AddToList1"
+            android:background="@color/black"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:onClick="onAdd2"
+            android:layout_margin="5dp"
+            android:text="@string/AddToList2"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:onClick="onBackPressed"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

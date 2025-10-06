@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:anroid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/MainLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Текстовые поля -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text1"
+        android:text="@string/Text1"
+        android:layout_margin="18dp"
+        android:padding="30dp"
+        android:gravity="center"
+        android:textSize="20pt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text2"
+        android:text="@string/Text2"
+        android:layout_margin="18dp"
+        android:padding="30dp"
+        android:gravity="center"
+        android:textSize="20pt"/>
+
+    <!-- Кнопки сочетания цветов -->
+    <Button
+        android:id="@+id/GreenRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:onClick="Set_button1"
+        android:text="@string/GreenRed"
+        android:textColor="@color/red" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BlackWhite"
+        android:text="@string/BlackWhite"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:onClick="Set_button2"
+        />
+    <Button
+        android:id="@+id/PurpleGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:onClick="Set_button3"
+        android:text="@string/PurpleGray"
+        android:textColor="@color/gray" />
+
+    <!-- Кнопки смена цвета -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/Blue"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:onClick="Set_button_OneColor1"
+            android:text="@string/Blue"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/Red"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:onClick="Set_button_OneColor2"
+            android:text="@string/Red"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/Pink"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/pink"
+            android:onClick="Set_button_OneColor3"
+            android:text="@string/Pink"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>

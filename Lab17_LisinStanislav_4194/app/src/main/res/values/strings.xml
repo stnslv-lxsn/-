@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab17_LisinStanislav_4194</string>
+    <string name="t1">Ввод первой строки</string>
+    <string name="str1">Строка 1 из ресурсов</string>
+    <string name="t2">Ввод второй строки</string>
+    <string name="str2">Строка 2 из ресурсов</string>
+    <string name="gets">Вставить get</string>
+    <string name="sets">Вставить set</string>
+</resources>

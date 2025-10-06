@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="elements1">
+        <item>Лисин</item>
+        <item>Станислав</item>
+        <item>Лабораторная работа</item>
+        <item>Номер 8</item>
+    </string-array>
+    <string-array name="elements2">
+        <item>А это</item>
+        <item>Уже</item>
+        <item>второй массив</item>
+        <item>с большим</item>
+        <item>кол-вом</item>
+        <item>элементов</item>
+    </string-array>
+</resources>

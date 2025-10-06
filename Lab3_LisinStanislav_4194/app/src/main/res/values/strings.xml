@@ -1,0 +1,16 @@
+<resources>
+    <!-- Текстовые поля -->
+    <string name="app_name">Lab3_LisinStanislav_419–4</string>
+    <string name="Text1">TextView1</string>
+    <string name="Text2">TextView2</string>
+
+    <!-- Кнопки сочетания цветов -->
+    <string name="GreenRed">Green-Red</string>
+    <string name="BlackWhite">Black-White</string>
+    <string name="PurpleGray">Purple-Gray</string>
+
+    <!-- Кнопки сочетания цветов -->
+    <string name="Blue">Blue</string>
+    <string name="Red">Red</string>
+    <string name="Pink">Pink</string>
+</resources>

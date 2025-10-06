@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab14_LisinStanislav_4194</string>
+    <string name="text">Главная активность</string>
+    <string name="text2">Вторая активность</string>
+    <string name="button">Вызов второй активности</string>
+    <string name="cancel">Отменить изменения</string>
+    <string name="okay">OK</string>
+</resources>

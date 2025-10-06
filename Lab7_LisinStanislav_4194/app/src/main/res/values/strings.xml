@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab6_LisinStanislav_4194</string>
+    <string name="kto">Лабораторная работа №7</string>
+    <string name="open">Open Activity</string>
+    <string name="AddToList1">Add to List1</string>
+    <string name="AddToList2">Add to List2</string>
+    <string name="back">Back</string>
+</resources>

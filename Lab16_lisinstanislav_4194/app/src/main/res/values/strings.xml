@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Лабораторная работа №16</string>
+    <string name="showToast">Показать Toast</string>
+    <string name="showToast2">Показать Toast 2</string>
+    <string name="showToast3">Показать Toast 3</string>
+    <string name="Toast4">Вызвать Toast</string>
+    <string name="catfood">Пора покормить кота!</string>
+    <string name="zad4">Задание 4</string>
+    <string name="zad5">Задание 5</string>
+    <string name="zad6">Задание 6</string>
+    <string name="back">Назад</string>
+</resources>

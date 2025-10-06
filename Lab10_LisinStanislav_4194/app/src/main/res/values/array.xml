@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr">
+        <item>abc</item>
+        <item>def</item>
+        <item>3ff</item>
+        <item>78tr</item>
+        <item>sfgf</item>
+        <item>item3</item>
+        <item>сколько</item>
+        <item>что тут еще писать</item>
+        <item>ну вот да, цвет меняется</item>
+    </string-array>
+</resources>
